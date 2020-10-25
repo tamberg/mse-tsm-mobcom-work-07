@@ -28,3 +28,10 @@ Done? Read the Android app source code in detail.
 * iOS BLE seems more stable. Why could that be?
 
 Done? Find some stats about the Android OS.
+
+### d) nRF Toolbox Plugin, 30'
+* The [nRF Toolbox app](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Toolbox) allows to write new plugins.
+* Build and run the [nRF Toolbox app source code](https://github.com/NordicSemiconductor/Android-nRF-Toolbox).
+* [Write a plugin](https://github.com/NordicSemiconductor/Android-nRF-Toolbox/tree/master/app/src/main/java/no/nordicsemi/android/nrftoolbox/template) for a custom SHT30 BLE service.
+
+Done? Create a custom icon for your service.
