@@ -10,8 +10,7 @@ For slides and example code, see [lesson 7](../../../mse-tsm-mobcom/blob/master/
 * Check the Logcat output with filter "MainActivity".
 * If it works, you should see BLE devices around you.
 * Test the app by disabling Bluetooth, location, etc.
-
-Done? Add a button to the UI to start a scan. 
+* Done? Add a button to the UI to start a scan. 
 
 ### b) Android BLE central, 10'
 * Build and run the [MyBleCentralApp example code](https://github.com/tamberg/mse-tsm-mobcom/tree/master/07/Android/MyBleCentralApp).
