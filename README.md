@@ -14,7 +14,7 @@ For slides and example code, see [lesson 7](../../../mse-tsm-mobcom/blob/master/
 
 ### b) Android BLE central, 10'
 * Build and run the [MyBleCentralApp example code](https://github.com/tamberg/mse-tsm-mobcom/tree/master/07/Android/MyBleCentralApp).
-* Also, a nRF52840 with [HRM BLE peripheral code](https://github.com/tamberg/mse-tsm-mobcom/blob/master/06/Arduino/nRF52840Sense_HrmBlePeripheral/nRF52840Sense_HrmBlePeripheral.ino).
+* Use the nRF52840 with [HRM BLE peripheral code](https://github.com/tamberg/mse-tsm-mobcom/blob/master/06/Arduino/nRF52840Sense_HrmBlePeripheral/nRF52840Sense_HrmBlePeripheral.ino).
 * Check the Logcat output with filter "MainActivity".
 * If it works, you should see heart rate measurements.
 * Done? Read the Android app source code in detail.
@@ -26,8 +26,9 @@ For slides and example code, see [lesson 7](../../../mse-tsm-mobcom/blob/master/
 * iOS BLE seems more stable. Why could that be?
 * Done? Find some stats about the Android OS.
 
-### d) nRF Toolbox Plugin, 30'
+### d) nRF Toolbox Plugin, 1h+
 * The [nRF Toolbox app](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Toolbox) allows to write new plugins.
 * Build and run the [nRF Toolbox app source code](https://github.com/NordicSemiconductor/Android-nRF-Toolbox).
-* [Write a plugin](https://github.com/NordicSemiconductor/Android-nRF-Toolbox/tree/master/app/src/main/java/no/nordicsemi/android/nrftoolbox/template) for a custom SHT30 BLE service.
+* [Write a plugin](https://github.com/NordicSemiconductor/Android-nRF-Toolbox/tree/master/app/src/main/java/no/nordicsemi/android/nrftoolbox/template) for [a custom SHT30 BLE service](https://github.com/tamberg/mse-tsm-mobcom/blob/master/06/Arduino/nRF52840Sense_HygrometerBlePeripheral/nRF52840Sense_HygrometerBlePeripheral.ino#L17-L19).
+* Test the app with [a nRF52840 BLE peripheral](https://github.com/tamberg/mse-tsm-mobcom/blob/master/06/Arduino/nRF52840Sense_HygrometerBlePeripheral/nRF52840Sense_HygrometerBlePeripheral.ino).
 * Done? Create a custom icon for your service.
