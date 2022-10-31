@@ -26,7 +26,14 @@ For slides and example code, see [lesson 7](../../../mse-tsm-mobcom/blob/master/
 * iOS BLE seems more stable. Why could that be?
 * Done? Find some stats about the Android OS.
 
-### d) nRF Toolbox Plugin, 1h+
+### d) nRF Blinky app example, 10'
+* [Android nRF Blinky](https://github.com/NordicSemiconductor/Android-nRF-Blinky) is a complete BLE app example.
+* It shows how to use the [Nordic Android BLE library](https://github.com/NordicSemiconductor/Android-BLE-Library/).
+* Read the library docs and study the app source code.
+* Which parts become easier by using this library?
+* Done? Sketch the BLE API of the peripheral.
+
+### e) nRF Toolbox Plugin, 1h+
 * The [nRF Toolbox app](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Toolbox) allows to write new plugins.
 * Build and run the [nRF Toolbox app source code](https://github.com/NordicSemiconductor/Android-nRF-Toolbox).
 * [Write a plugin](https://github.com/NordicSemiconductor/Android-nRF-Toolbox/tree/master/app/src/main/java/no/nordicsemi/android/nrftoolbox/template) for [a custom SHT30 BLE service](https://github.com/tamberg/mse-tsm-mobcom/blob/master/06/Arduino/nRF52840Sense_HygrometerBlePeripheral/nRF52840Sense_HygrometerBlePeripheral.ino#L17-L19).
